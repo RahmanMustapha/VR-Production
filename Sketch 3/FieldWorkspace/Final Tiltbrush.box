@@ -1,0 +1,22 @@
+{
+  "_code_cookie" "{\"output\":\"appendRemoteOutputToLine(27, \\\"<div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\">12 : TypeError: Cannot get property \\\\\\\"triggerDown\\\\\\\" of null in <a href=\\\\\\\"#\\\\\\\" onclick=\\\\\\\"_field.send('cc739af403604eecb9848b2b3a7a250c', {})\\\\\\\">Final Tiltbrush (this box)<\\/a> at line number 12<\\/div><\\/div><\\/div><\\/div><\\/div><\\/div>\\\", 'Field-remoteOutput', 'Field-remoteOutput-error', false,0)\\n\",\"folds\":{\"selections\":[{\"head\":{\"ch\":1,\"line\":27,\"sticky\":null},\"anchor\":{\"ch\":1,\"line\":27,\"sticky\":null}}],\"marks\":[]},\"history\":{\"done\":[{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]},{\"changes\":[{\"from\":{\"ch\":0,\"line\":0,\"sticky\":null},\"to\":{\"ch\":1,\"line\":27,\"sticky\":null},\"text\":[\"\"]}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":1,\"line\":27,\"sticky\":null},\"anchor\":{\"ch\":1,\"line\":27,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":22,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":22,\"sticky\":null}}]},{\"changes\":[{\"from\":{\"ch\":0,\"line\":22,\"sticky\":null},\"to\":{\"ch\":1,\"line\":22,\"sticky\":null},\"text\":[\"\"]}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":1,\"line\":22,\"sticky\":null},\"anchor\":{\"ch\":1,\"line\":22,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":11,\"line\":20,\"sticky\":null},\"anchor\":{\"ch\":11,\"line\":20,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":1,\"line\":22,\"sticky\":null},\"anchor\":{\"ch\":1,\"line\":22,\"sticky\":null}}]},{\"changes\":[{\"from\":{\"ch\":0,\"line\":22,\"sticky\":null},\"to\":{\"ch\":0,\"line\":22,\"sticky\":null},\"text\":[\"n\"]}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":22,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":22,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":15,\"line\":7,\"sticky\":null},\"anchor\":{\"ch\":15,\"line\":7,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":1,\"line\":27,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":1,\"line\":27,\"sticky\":null},\"anchor\":{\"ch\":1,\"line\":27,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":1,\"line\":27,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":1,\"line\":27,\"sticky\":null},\"anchor\":{\"ch\":1,\"line\":27,\"sticky\":null}}]}],\"undone\":[]},\"currentpos\":{\"ch\":1,\"line\":27,\"sticky\":null},\"widgets\":[],\"brackets\":\"\"}"
+  "code" "var layer = _.stage.withName(\"my great layer\")\nlayer.vrDefaults()\n\n// clear all the lines when this box is run\n// with arrow-up\nlayer.lines.clear()\n\n// start with 'not down'\nvar down = false\n\n// do this on trigger down\nlayer.vrButtons.triggerDown.myCallback = () => {\n\tdown = true\n\n\tf = new FLine()\n\tf.color=vec(1,1,1,1)\n\tlayer.lines.add(f)\n}\n\nlayer.vrButtons.triggerUp.myCallback = () => {\n\tdown = false\n}\n\nwhile(_.wait()) {\n\tif (down) {\n\t\tf.lineTo(layer.vrRightHandPosition())\n\t}\n}"
+  "withOverloading" true
+  "boxOutline" #field/serializable{
+    :base64 "rO0ABXNyABFmaWVsZC5saW5hbGcuVmVjNAAAAAAAAAABDAAAeHB3IAAAAAAAAAAAAAAAAAAAAAA/0zMzMzMzMz/QAAAAAAAAeA=="
+  }
+  "__boxclass__" "fieldbox.boxes.Box"
+  "__id__" "_77b07938_e86a_46ab_a6c5_4cfdc099ed6f"
+  "__datafilename__" "{{workspace}}/Final Tiltbrush.box"
+  "boxBackground" #field/serializable{
+    :base64 "rO0ABXNyABFmaWVsZC5saW5hbGcuVmVjNAAAAAAAAAABDAAAeHB3ID/wAAAAAAAAP+5mZmZmZmY/7MzMzMzMzT/oAAAAAAAAeA=="
+  }
+  "name" "Final Tiltbrush"
+  "__filename__code" "{{workspace}}/Final Tiltbrush.box.js"
+  "frame" #field/rect{
+    :x 455.2952880859375
+    :y 218.551513671875
+    :w 100.0
+    :h 100.0
+  }
+}

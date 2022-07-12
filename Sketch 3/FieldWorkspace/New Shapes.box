@@ -1,0 +1,22 @@
+{
+  "_code_cookie" "{\"output\":\"\",\"folds\":{\"selections\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}],\"marks\":[]},\"history\":{\"done\":[{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]},{\"changes\":[{\"from\":{\"ch\":0,\"line\":0,\"sticky\":null},\"to\":{\"ch\":48,\"line\":15,\"sticky\":null},\"text\":[\"\"]}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":48,\"line\":15,\"sticky\":null},\"anchor\":{\"ch\":48,\"line\":15,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":1,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":1,\"line\":0,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]},{\"changes\":[{\"from\":{\"ch\":0,\"line\":0,\"sticky\":null},\"to\":{\"ch\":2,\"line\":0,\"sticky\":null},\"text\":[\"\"]}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":2,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":2,\"line\":0,\"sticky\":null}}]},{\"changes\":[{\"from\":{\"ch\":1,\"line\":0,\"sticky\":null},\"to\":{\"ch\":1,\"line\":0,\"sticky\":null},\"text\":[\"/\"]},{\"from\":{\"ch\":0,\"line\":0,\"sticky\":null},\"to\":{\"ch\":0,\"line\":0,\"sticky\":null},\"text\":[\"/\"]}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]}],\"undone\":[]},\"currentpos\":{\"ch\":0,\"line\":0,\"sticky\":null},\"widgets\":[],\"brackets\":\"\"}"
+  "code" "var big = new FLine().circle(0,0,100)\n\nbig.filled = true\nbig.color = vec(0,0,1,0.5)\n\nbig = big * rotate(30) * scale(1,0.4) * rotate(20)\n\n_.lines.big = big\n\nvar little = new FLine().rect(-5,-5,10,10)\n\nlittle.filled = true\nlittle.color = vec(1,0,0,0.5)\n\n// here we multiply 'little' by a list sampled from the line 'big'\n_.lines.little = little + big.sampleByNumber(20)"
+  "withOverloading" true
+  "boxOutline" #field/serializable{
+    :base64 "rO0ABXNyABFmaWVsZC5saW5hbGcuVmVjNAAAAAAAAAABDAAAeHB3IAAAAAAAAAAAAAAAAAAAAAA/0zMzMzMzMz/QAAAAAAAAeA=="
+  }
+  "__boxclass__" "fieldbox.boxes.Box"
+  "__id__" "_080eaba5_4ae7_4c72_9df8_b376579f84dc"
+  "__datafilename__" "{{workspace}}/New Shapes.box"
+  "boxBackground" #field/serializable{
+    :base64 "rO0ABXNyABFmaWVsZC5saW5hbGcuVmVjNAAAAAAAAAABDAAAeHB3ID/wAAAAAAAAP+5mZmZmZmY/7MzMzMzMzT/oAAAAAAAAeA=="
+  }
+  "name" "New Shapes"
+  "__filename__code" "{{workspace}}/New Shapes.box.js"
+  "frame" #field/rect{
+    :x 221.1046905517578
+    :y 222.59371948242188
+    :w 100.0
+    :h 100.0
+  }
+}

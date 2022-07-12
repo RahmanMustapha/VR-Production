@@ -1,0 +1,20 @@
+{
+  "_code_cookie" "{\"output\":\"\",\"folds\":{\"selections\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}],\"marks\":[]},\"history\":{\"done\":[{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]}],\"undone\":[]},\"currentpos\":{\"ch\":0,\"line\":0,\"sticky\":null},\"widgets\":[],\"brackets\":\"\"}"
+  "withOverloading" true
+  "boxOutline" #field/serializable{
+    :base64 "rO0ABXNyABFmaWVsZC5saW5hbGcuVmVjNAAAAAAAAAABDAAAeHB3IAAAAAAAAAAAAAAAAAAAAAA/0zMzMzMzMz/QAAAAAAAAeA=="
+  }
+  "__boxclass__" "fieldbox.boxes.Box"
+  "__id__" "_e9302f4e_3d38_4ad2_9739_e27fa50129c9"
+  "__datafilename__" "{{workspace}}/Untitled.box"
+  "boxBackground" #field/serializable{
+    :base64 "rO0ABXNyABFmaWVsZC5saW5hbGcuVmVjNAAAAAAAAAABDAAAeHB3ID/wAAAAAAAAP+5mZmZmZmY/7MzMzMzMzT/oAAAAAAAAeA=="
+  }
+  "name" "Untitled"
+  "frame" #field/rect{
+    :x -17091.0703125
+    :y -25317.091796875
+    :w 100.0
+    :h 100.0
+  }
+}

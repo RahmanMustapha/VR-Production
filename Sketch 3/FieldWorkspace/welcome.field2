@@ -1,0 +1,389 @@
+#field/document{
+  :externalList [
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Tiltbrush.box.js"
+      }
+      :dataFile "{{workspace}}/Tiltbrush.box"
+      :id "_d5d77f50_460f_43d2_b99e_035bd4dcb228"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x -61.1015625
+          :y -121.2734375
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Drawing.box.js"
+      }
+      :dataFile "{{workspace}}/Drawing.box"
+      :id "_f5be0a8e_a859_47f3_8c44_ff622a66c529"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 45.09765625
+          :y -125.69921875
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+      }
+      :dataFile "{{workspace}}/Untitled.box"
+      :id "_e9302f4e_3d38_4ad2_9739_e27fa50129c9"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x -17091.0703125
+          :y -25317.091796875
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Unfilled.box.js"
+      }
+      :dataFile "{{workspace}}/Unfilled.box"
+      :id "_02af59bf_7f2e_4ecd_a38e_68d93ae8e234"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 153.56015014648438
+          :y -124.35316467285156
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Filled.box.js"
+      }
+      :dataFile "{{workspace}}/Filled.box"
+      :id "_6b7078f0_0df0_4e26_aef2_5305ee95e51a"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 255.6109619140625
+          :y -125.5211181640625
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Pointed.box.js"
+      }
+      :dataFile "{{workspace}}/Pointed.box"
+      :id "_83b858a4_5ab4_4af9_b754_dc93bd9982fc"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 357.4273681640625
+          :y -126.6148681640625
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Points.box.js"
+      }
+      :dataFile "{{workspace}}/Points.box"
+      :id "_eeab9bd7_33af_4ee9_add7_5224e100fe83"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 459.2945556640625
+          :y -128.9625244140625
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Complex Geo.box.js"
+      }
+      :dataFile "{{workspace}}/Complex Geo.box"
+      :id "_f234b1be_ddee_409e_9209_ef2069c1a77e"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x -37.81719970703125
+          :y 222.79840087890625
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Square.box.js"
+      }
+      :dataFile "{{workspace}}/Square.box"
+      :id "_b8209a4c_2f30_4517_9550_157f2d924251"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 102.75314331054688
+          :y 218.22418212890625
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/New Shapes.box.js"
+      }
+      :dataFile "{{workspace}}/New Shapes.box"
+      :id "_080eaba5_4ae7_4c72_9df8_b376579f84dc"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 221.1046905517578
+          :y 222.59371948242188
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Overlap.box.js"
+      }
+      :dataFile "{{workspace}}/Overlap.box"
+      :id "_0352577f_429d_43b8_b3b5_bc9074e4a5cc"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 339.6015625
+          :y 221.37496948242188
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Final Tiltbrush.box.js"
+      }
+      :dataFile "{{workspace}}/Final Tiltbrush.box"
+      :id "_77b07938_e86a_46ab_a6c5_4cfdc099ed6f"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 455.2952880859375
+          :y 218.551513671875
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Test.box.js"
+      }
+      :dataFile "{{workspace}}/Test.box"
+      :id "_43272dbe_9a11_4368_a292_e018f4e63ae5"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 253.86563110351562
+          :y 44.024417877197266
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/Square Test.box.js"
+      }
+      :dataFile "{{workspace}}/Square Test.box"
+      :id "_6feaafa7_50d3_42e2_b4b4_e32d234e2f74"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 379.4445495605469
+          :y 45.65176010131836
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "fragment" "{{workspace}}/viewport00000.box.glslf"
+        "code" "{{workspace}}/viewport00000.box.js"
+        "vertex" "{{workspace}}/viewport00000.box.glslv"
+      }
+      :dataFile "{{workspace}}/viewport00000.box"
+      :id "_94ceec41_c75c_4271_93eb_986e7e731248"
+      :boxClass "fieldbox.boxes.plugins.Viewport"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 610.9302978515625
+          :y 319.6094055175781
+          :w 631.66015625
+          :h 283.28125
+        }
+      }
+    }
+    #field/external{
+      :textFiles {
+        "code" "{{workspace}}/brain.box.js"
+      }
+      :dataFile "{{workspace}}/brain.box"
+      :id "_d88c8f02_6f5e_4a2b_8d59_a54ac02141a9"
+      :boxClass "fieldbox.boxes.Box"
+      :parents [
+        ">>root<<"
+      ]
+      :children [
+      ]
+      :overriddenProperties {
+        "frame" #field/rect{
+          :x 132.78125
+          :y 40.932861328125
+          :w 100.0
+          :h 100.0
+        }
+      }
+    }
+  ]
+  :knownFiles {
+    "txt" #field/filespec{
+      :name "txt"
+    }
+    "fragment" #field/filespec{
+      :name "fragment"
+    }
+    "code" #field/filespec{
+      :name "code"
+    }
+    "vertex" #field/filespec{
+      :name "vertex"
+    }
+    "geometry" #field/filespec{
+      :name "geometry"
+    }
+    "html" #field/filespec{
+      :name "html"
+    }
+    "edn" #field/filespec{
+      :name "edn"
+    }
+  }
+  :knownProperties #{
+    "__id__"
+    "comment"
+    "classpath"
+    "perDocument"
+    "name"
+    "frame"
+    "lockHeight"
+    "lockWidth"
+    "tag"
+    "windowSpace"
+    "windowScale"
+    "isPaired"
+    "auto"
+    "defaultEditorProperty"
+    "_defaultEditorProperty_cookie"
+    "_code_cookie"
+    "_theVariant"
+    "includes"
+    "excludes"
+    "__datafilename__"
+    "__filename__code"
+    "__filename__fragment"
+    "__filename__vertex"
+  }
+}

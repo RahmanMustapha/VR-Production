@@ -1,0 +1,22 @@
+{
+  "_code_cookie" "{\"output\":\"appendRemoteOutputToLine(12, \\\"<div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\"><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><div class=\\\\\\\"outputline\\\\\\\">â<\\/div><\\/div><\\/div><\\/div><\\/div><\\/div><\\/div><\\/div><\\/div><\\/div><\\/div><\\/div>\\\", 'Field-remoteOutput-error', 'Field-remoteOutput', false,0)\\n\",\"folds\":{\"selections\":[{\"head\":{\"ch\":2,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":2,\"line\":0,\"sticky\":null}}],\"marks\":[]},\"history\":{\"done\":[{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]},{\"changes\":[{\"from\":{\"ch\":0,\"line\":0,\"sticky\":null},\"to\":{\"ch\":15,\"line\":12,\"sticky\":null},\"text\":[\"\"]}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":15,\"line\":12,\"sticky\":null},\"anchor\":{\"ch\":15,\"line\":12,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":6,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":6,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":4,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":4,\"line\":0,\"sticky\":null}}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":0,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":0,\"line\":0,\"sticky\":null}}]},{\"changes\":[{\"from\":{\"ch\":0,\"line\":0,\"sticky\":null},\"to\":{\"ch\":2,\"line\":0,\"sticky\":null},\"text\":[\"\"]}]},{\"primIndex\":0,\"ranges\":[{\"head\":{\"ch\":2,\"line\":0,\"sticky\":null},\"anchor\":{\"ch\":2,\"line\":0,\"sticky\":null}}]}],\"undone\":[]},\"currentpos\":{\"ch\":2,\"line\":0,\"sticky\":null},\"widgets\":[],\"brackets\":\"\"}"
+  "code" "//var ll = new FLine()\n\nfor(var i=0;i<1000;i++)\n{\n\tll.moveTo(vec(Math.random(),Math.random())*100)\n}\n\nll.pointed=true\nll.pointSize=3\nll.color=vec(0,0,0,0.3)\n\n_.lines.clear()\n_.lines.add(ll)"
+  "withOverloading" true
+  "boxOutline" #field/serializable{
+    :base64 "rO0ABXNyABFmaWVsZC5saW5hbGcuVmVjNAAAAAAAAAABDAAAeHB3IAAAAAAAAAAAAAAAAAAAAAA/0zMzMzMzMz/QAAAAAAAAeA=="
+  }
+  "__boxclass__" "fieldbox.boxes.Box"
+  "__id__" "_eeab9bd7_33af_4ee9_add7_5224e100fe83"
+  "__datafilename__" "{{workspace}}/Points.box"
+  "boxBackground" #field/serializable{
+    :base64 "rO0ABXNyABFmaWVsZC5saW5hbGcuVmVjNAAAAAAAAAABDAAAeHB3ID/wAAAAAAAAP+5mZmZmZmY/7MzMzMzMzT/oAAAAAAAAeA=="
+  }
+  "name" "Points"
+  "__filename__code" "{{workspace}}/Points.box.js"
+  "frame" #field/rect{
+    :x 459.2945556640625
+    :y -128.9625244140625
+    :w 100.0
+    :h 100.0
+  }
+}
